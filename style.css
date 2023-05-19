@@ -73,14 +73,14 @@ ul li {
 ul li ::before {
  content: ''; 
  position:absolute;
- height: 28px;
+ height: 22px;
  width: 28px; 
  border-radius: 50%; 
- background-image:  ();
  background-size: cover;
  background-position: center; 
  top:12px; 
- left: 8px; 
+ left: -22px; 
+ background-image: url(images/unchecked.png);
 
 } 
 
@@ -89,7 +89,10 @@ ul li ::before {
 ul {
 margin-top: 20px;
 list-style: none;
-padding-left: 0;
+padding-left: 0; 
+position: relative;
+left: 20px;
+
  
 }
 
@@ -97,19 +100,30 @@ li{
 margin-top: 5px;
 text-decoration: none;
 
+
+
 } 
 
 a {
  color: #002765 ;
  text-decoration: none;
 
+
 }
 
 h1{
 
 color: #002765 ;
-text-decoration: none;
 font-weight: bold;
 
 
-}
+
+} 
+
+
+ul li.checked::before { 
+   background-image: url(images/checked.png);
+
+  
+  
+  } 
