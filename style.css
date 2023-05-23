@@ -1,19 +1,22 @@
-*{
-margin:0;
-padding: 0px;
-font-family:'Times New Roman', Times, serif; 
-box-sizing: border-box;
-
-}
-
-
-.container { 
-    width: 100%;
-   min-height: 100vh;
-   background: linear-gradient(135deg, #153677 , #4e085f);
+body {
+   margin: 0 ;
    padding: 10px;
+   font-family: 'Times New Roman', Times, serif;
+  min-width: 400px;
+ 
+ }  
 
-}
+ button {
+   background:#5f9341 ;     
+   color: white;
+   padding:10px 20px;
+   border: 1px solid #5f9341; 
+   font-weight: bold;
+  
+     
+    }  
+
+
 
 .todo-app{
  width: 100%;
@@ -121,9 +124,4 @@ font-weight: bold;
 } 
 
 
-ul li.checked::before { 
-   background-image: url(images/checked.png);
 
-  
-  
-  } 
