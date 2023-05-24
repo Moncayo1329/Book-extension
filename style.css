@@ -3,125 +3,79 @@ body {
    padding: 10px;
    font-family: 'Times New Roman', Times, serif;
   min-width: 400px;
+  background: linear-gradient(135deg, #153677 , #4e085f );
  
  }  
 
- button {
-   background:#5f9341 ;     
-   color: white;
-   padding:10px 20px;
-   border: 1px solid #5f9341; 
-   font-weight: bold;
-  
-     
-    }  
-
-
-
-.todo-app{
- width: 100%;
- max-width: 540px;
- background: #fff;
- margin: 100px auto 20px; 
- padding: 40px 30px 70px;
-
-}
-
-.todo-app h2{
- color:#002765;
- display: flex;
- align-items:center;
- margin-bottom: 20px;
-
-} 
-
-.todo-app h2 img{
-width: 30px;
-margin-left: 10px;
-
-} 
-
-input {
-    width: 40%;
-    padding: 10px;
-    box-sizing:border-box;
-     border: 1px solid #002765;
-    border-radius: 5px;
-    margin-bottom: 4px;
-    
- }  
-
- button {
-    background:#002765 ;     
+ input {
+   width: 100%;
+   padding: 10px;
+   box-sizing:border-box;
+    border: 1px solid #28136c;
+   border-radius: 10px;
+   margin-bottom: 4px;
+   
+     }  
+   
+   
+     button {
+    background:#28136c;     
     color: white;
-    padding:10px 10px;
-    border: 1px solid #002765; 
+    padding:10px 20px;
+    border: 1px solid #28136c; 
     font-weight: bold;
-    border-radius: 10px;
    
       
      }  
+   
+   
+     #delete-btn {
+       background: white;
+       color: #28136c;
+   }
+   
+     ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+      
+     }
+   
+     li{
+    margin-top: 5px;
+    
+   
+     } 
+   
+     a {
+      color: #0a0323;
+      text-decoration: none;
+      
+     
+
+     }
+   
+     h1{
+   
+     color: #090122;
+   
+   
+     }
+     
+     .todo-app h2 img{
+      position: relative;
+      width: 34px;
+      margin-left: 10px;
+     top: 7px;
+      
+      
+      } 
+
+      
+
+    
 
 
-ul li { 
- list-style: none;
- font-size: 17px;
- padding: 12px 8px;
- user-select: none;
- cursor: pointer;
- position: relative;
-
-} 
-
-ul li ::before {
- content: ''; 
- position:absolute;
- height: 22px;
- width: 28px; 
- border-radius: 50%; 
- background-size: cover;
- background-position: center; 
- top:12px; 
- left: -22px; 
- background-image: url(images/unchecked.png);
-
-} 
-
-
-
-ul {
-margin-top: 20px;
-list-style: none;
-padding-left: 0; 
-position: relative;
-left: 20px;
-
- 
-}
-
-li{
-margin-top: 5px;
-text-decoration: none;
-
-
-
-} 
-
-a {
- color: #002765 ;
- text-decoration: none;
-
-
-}
-
-h1{
-
-color: #002765 ;
-font-weight: bold;
-
-
-
-} 
 
 
 
